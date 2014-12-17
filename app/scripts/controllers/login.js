@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name membershipSystemApp.controller:AboutCtrl
+ * @name membershipSystemApp.controller:LoginCtrl
  * @description
- * # AboutCtrl
+ * # LoginCtrl
  * Controller of the membershipSystemApp
  */
 angular.module('membershipSystemApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('LoginCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name membershipSystemFrontendApp
+ * @name membershipSystemApp
  * @description
- * # membershipSystemFrontendApp
+ * # membershipSystemApp
  *
  * Main module of the application.
  */
 angular
-  .module('membershipSystemFrontendApp', [
+  .module('membershipSystemApp', [
     'ngAnimate',
     'ngRoute',
     'ngSanitize'
@@ -20,9 +20,13 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/membership', {
+        templateUrl: 'views/membership.html',
+        controller: 'MembershipCtrl'
+      })
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
       })
       .otherwise({
         redirectTo: '/'

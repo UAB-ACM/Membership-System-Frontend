@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name membershipSystemFrontendApp.controller:MainCtrl
+ * @name membershipSystemApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the membershipSystemFrontendApp
+ * Controller of the membershipSystemApp
  */
-angular.module('membershipSystemFrontendApp')
+angular.module('membershipSystemApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
